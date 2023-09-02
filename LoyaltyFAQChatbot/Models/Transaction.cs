@@ -8,5 +8,6 @@
         public string transactionPoints { get; set; }
         public string transactionType { get; set; }
         public string transactionDescription { get; set; }
+        User user { get; set; }
     }
 }

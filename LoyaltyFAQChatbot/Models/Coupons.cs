@@ -9,5 +9,6 @@
         public DateTime expiryDate { set; get; }
         public int couponValue { set; get; }
         public string couponStatus { set; get; }
+        User User { set; get; }
     }
 }

@@ -9,6 +9,7 @@
         public DateTime creationDate { get; set; }
         public bool isSolved { get; set; }
         public string ticketDescription { get; set;}
+        User user { get; set; }
         
     }
 }
